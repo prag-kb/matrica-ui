@@ -1,0 +1,67 @@
+.App {
+background-color: #c5c9ca70;
+}
+
+.title {
+  width: 9rem;
+    /* border-right: 1px solid #cac5c5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+.body_main {
+  display: flex;
+}
+
+.sideBar_parent {
+  border-right: 0.5px solid #cac5c5;
+  padding: 4rem;
+  display: grid;
+  justify-items: center;
+}
+
+.sidebar .menu_list:hover {
+  color: blueviolet;
+
+}
+.menu_list {
+  margin: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-rows: 25rem;
+}
+
+.search_bar{
+  width: 40rem;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: x-large;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.profile {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  height: max-content;
+}
+
+.cardBody {
+  width: "12rem";
+  background-color:"lightgrey";
+   padding:"10px";
+    border-radius:"10px";
+     height:"10rem"; 
+     text-align:"center"; 
+     display:"grid"
+}
