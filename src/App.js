@@ -2,6 +2,7 @@ import './App.css';
 import SideBar from './components';
 import Cards from './components/cards';
 import Header from './components/header';
+import TabsBoard from './components/Tabs';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div>
           <Header/>
           <Cards/>
+          <TabsBoard/>
         </div>
       </div>
     </div>

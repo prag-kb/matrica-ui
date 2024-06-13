@@ -31,7 +31,7 @@ const Cards = () => {
     },
   ]
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "0fr 0fr 1fr", gap: "15px", margin: "20px 0 0 20px" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "0fr 0fr 1fr", gap: "15px", margin: "20px 0 20px 20px" }}>
       <div>
         <div className='cardBody' style={{ width: "12rem", backgroundColor: "lightgrey", padding: "10px", borderRadius: "10px", height: "10rem", textAlign: "center", display: "grid" }}>
           <div style={{ color: "slategray" }}>Total Portfolio Value</div>
