@@ -33,6 +33,21 @@ const Cards = () => {
       coin_value: 0,
     },
   ];
+
+  const currencyOptions = [
+    {
+      name:"USD",
+      symbol:"$"
+    },
+    {
+      name:"Bit Coin",
+      symbol:"#"
+    },
+    {
+      name:"SOL",
+      symbol:"@"
+    }
+  ]
   return (
     <div
       style={{
@@ -57,7 +72,11 @@ const Cards = () => {
         >
           <div style={{ color: "slategray" }}>Total Portfolio Value</div>
           <div style={{ fontSize: "xx-large" }}>$ 176.30</div>
-          <select style={{ margin: "10px" }}></select>
+          <select style={{ margin: "10px" }}>
+            {currencyOptions?.map((x)=> (
+              <option key={x?.symbol} value={x?.name}>{x?.symbol} {x?.name}</option>
+            ))}
+          </select>
         </div>
       </div>
 

@@ -12,7 +12,7 @@ const Header = () => {
           width: "100%",
           border: "none",
           borderRadius: "20px",
-          padding:"10px",
+          padding:"1px",
           outline:"none"
         }}
         type='search'
